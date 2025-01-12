@@ -77,6 +77,8 @@ def create_github_repository(app_name, language):
 
     print(f"Repository '{repo_name}' created successfully.")
 
+    print(f"Repository URL: {repo.html_url}")
+
     # default files
     try:
         for root, _, files in os.walk(language_template_path):
