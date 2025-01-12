@@ -24,7 +24,3 @@ Tools Test Repository - For timeout take home challenge
 6. I like the idea of having your explicit files ready in your file templates - E.g. having a standard language, with room to add more, say you want a language with a template build, like java standalone, then a java springboot template, this allows that
 
 7. Adding security scanners to look for keys and sensitive information via regex/tooling, just incase something gets added to a template where it shouldn't
-
-8. I haven't been able to test if the configuring rules works as the API throws me to the below error as a response, see documentation also outlining this, please feel free to try it out on your side.
-
-error: 403 {"message": "Upgrade to GitHub Pro or make this repository public to enable this feature.", "documentation_url": "https://docs.github.com/rest/branches/branch-protection#update-branch-protection", "status": "403"}
