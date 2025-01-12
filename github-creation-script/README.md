@@ -36,6 +36,12 @@
 
 # Dockerized
 
-1. docker build -t github-repo-creator .
+1. Build the image
+   ```bash
+   docker build -t github-repo-creator .
+   ```
 
-2. docker run --rm -e GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> -e GITHUB_ORG=<YOUR_GITHUB_ORG> github-repo-creator python script.py <GITHUB_REPOSITORY_NAME> <CHOOSEN_LANGUAGE>
+2. Run and pass through token & command
+   ```bash
+   docker run --rm -e GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> -e GITHUB_ORG=<YOUR_GITHUB_ORG> github-repo-creator python script.py <GITHUB_REPOSITORY_NAME> <CHOOSEN_LANGUAGE>
+   ```
