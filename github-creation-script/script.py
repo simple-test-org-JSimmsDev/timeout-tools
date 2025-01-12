@@ -66,7 +66,7 @@ def create_github_repository(app_name, language):
         repo = org.create_repo(
             name=repo_name,
             description=f"Repository for {app_name} - {language} application.",
-            private=True,
+            private=False,
             has_issues=True,
             has_wiki=False,
             allow_merge_commit=False,
