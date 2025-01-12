@@ -36,6 +36,8 @@
 
 # Dockerized
 
+Note of preference to using the Docker version for compatability
+
 1. Build the image
    ```bash
    docker build -t github-repo-creator .
