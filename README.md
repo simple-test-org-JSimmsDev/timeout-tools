@@ -1,6 +1,14 @@
 # timeout-tools
 Tools Test Repository - For timeout take home challenge
 
+# Requirements
+
+1. Input of: Application name, the programming language  ✔
+2. Outputs: Repository of the github, with a standardized name  ✔
+3. Contain sensible default files  ✔
+4. Engineers team added to repo  ✔
+5. Branch protection rules (Sensible)  ✔
+
 # Points of note
 
 1. I imagined this as a repository of tools, as such I have put the actual script under github-creation-script (Please ensure your directory is in the correct location when running)
