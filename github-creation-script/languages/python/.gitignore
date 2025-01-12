@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments Example
+venv/
+.env
+
+# Example IDE and editor files
+.vscode/
+.idea/
+
+# Docker
+*.log
