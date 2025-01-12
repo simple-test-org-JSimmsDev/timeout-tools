@@ -1,4 +1,4 @@
-Locally (Mac)
+# Locally (Mac)
 
 1. Setup your tokens
     ```bash
@@ -7,16 +7,16 @@ Locally (Mac)
     ```
 
 2. Install dependencies 
-    ```bash
+    ```
     pip install PyGithub
     ```
 
 3. Run the script
-    ```bash
+    ```
     python script.py <repository_name> <language>
     ```
 
-Locally (Windows - CMD)
+# Locally (Windows - CMD)
 
 1. Setup your tokens
     ```bash
@@ -25,17 +25,17 @@ Locally (Windows - CMD)
     ```
 
 2. Install dependencies 
-    ```bash
+    ```
     pip install PyGithub
     ```
 
 3. Run the script
-    ```bash
+    ```
     python script.py <repository_name> <language>
     ```
 
-Dockerized
+# Dockerized
 
-docker build -t github-repo-creator .
+1. docker build -t github-repo-creator .
 
-docker run --rm -e GITHUB_TOKEN=<your_github_token> -e GITHUB_ORG=<your_org_name> github-repo-creator <app_name> <language>
+2. docker run --rm -e GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> -e GITHUB_ORG=<YOUR_GITHUB_ORG> github-repo-creator python script.py <GITHUB_REPOSITORY_NAME> <CHOOSEN_LANGUAGE>
